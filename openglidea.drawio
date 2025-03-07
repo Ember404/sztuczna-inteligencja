@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2025-03-07T11:01:59.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="24.2.5" etag="qWCVFVOEUbnN43SAXZfl" type="github">
+<mxfile host="app.diagrams.net" modified="2025-03-07T11:25:41.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" etag="TXy4hjEv7d8NMm4L9CZ_" version="24.2.5" type="github">
   <diagram name="Page-1" id="RA9XImUkgKvnVcU5kpE4">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Programowanie grafiki 3D - PROJEKT&lt;/h1&gt;&lt;p&gt;Projekt zakłada stworzenie aplikacji do wizualizacji symulowanego zagęszczenia wspinaczy w różnych sektorach ścianki wspinaczkowej, w zależności od liczby ludzi oraz liczby problemów, oferowanych przez różne sektory (problem jest tutaj rozumiany jako problem wspinaczkowy. Nie nazywa się go drogą wspinaczkową, ponieważ modelowana ścianka to ścianka boulderingowa, czyli wspinamy się bez liny na parę metrów i skaczemy na materac. Droga wspinaczkowa jest raczej zarezerwowaną nazwą dla wspinania z liną).&lt;/p&gt;&lt;p&gt;Generowanie wizualizacji będzie realizowane z użyciem biblioteki OpenGL po stronie serwera. oraz wysyłanie obliczonego widoku do klienta. Do komunikacji serwera z klientem będzie użyte Rest API (do wysyłania paremetrów) oraz WebRTC (do streamowania obrazu do HTML5)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="470" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-2" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-4" value="Widok strony internetowej w HTML5" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="420" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;rotation=15;strokeColor=default;fillColor=none;fontSize=9;textOpacity=0;" vertex="1" parent="o8FCd8KdvyYEdmHdJfJE-4">
+          <mxGeometry x="60" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-11" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="o8FCd8KdvyYEdmHdJfJE-4">
+          <mxGeometry x="10" y="100" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="o8FCd8KdvyYEdmHdJfJE-4">
+          <mxGeometry x="10" y="90" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;rotation=15;strokeColor=default;fillColor=none;fontSize=9;textOpacity=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-6" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="230" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-13" value="Serwer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="595" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o8FCd8KdvyYEdmHdJfJE-14" value="Obliczanie widoku na podstawie podanych parametrów i streamowanie go za pomocą WebRTC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="150" width="160" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
